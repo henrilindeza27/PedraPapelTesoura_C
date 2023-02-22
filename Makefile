@@ -1,4 +1,4 @@
-SOURCEFILES	= srcs/main.c srcs/menus.c srcs/func.c srcs/play.c srcs/play_func.c
+SOURCEFILES	= $(wildcard ./srcs/*.c)
 OBJECTS	= ${SOURCEFILES:.c=.o}
 NAME	= ppt_exec
 COMPILER		= cc
