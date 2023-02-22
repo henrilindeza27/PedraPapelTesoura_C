@@ -5,7 +5,12 @@ COMPILER		= cc
 RM		= rm -f
 FLAGS	= -Wall -Wextra -Werror
 
-all: ${NAME}
+.PHONY: all, clean, fclean, re, exec
+
+all: exec
+
+exec: ${NAME}
+	./${NAME}
 
 
 ${NAME} : ${OBJECTS}
