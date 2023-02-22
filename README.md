@@ -5,3 +5,7 @@
 - 3 Durabilidade de jogo (1 Vitória / 3 Vitórias / 5 Vitórias)
 
 **Ideas/dicas de melhoramento serão sempre bem-vindas ^^**
+
+## Executar
+- Basta executar o comando **"make"** no terminal na directoria da pasta original que ele fará a compilação e de seguinda a execução
+
